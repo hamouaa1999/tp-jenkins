@@ -3,9 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'gradle build'
-        sh 'gradle javadoc'
-        echo 'Build done successfully'
+        bat 'gradle build'
+        bat 'gradle javadoc'
       }
     }
 
