@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'done'
+        sh '''gradle build
+gradle javadoc'''
       }
     }
 
