@@ -26,27 +26,9 @@ pipeline {
       }
     }
 
-    stage('Code analysis') {
-      parallel {
-        stage('Code analysis') {
-          steps {
-            withSonarQubeEnv('sonar') {
-              bat 'gradle sonarqube'
-            }
-
-            timeout(time: 1, unit: 'MINUTES') {
-              waitForQualityGate true
-            }
-
-          }
-        }
-
-        stage('Test Reporting') {
-          steps {
-            cucumber '*/.json'
-          }
-        }
-
+    stage('Test Reporting') {
+      steps {
+        cucumber '*/.json'
       }
     }
 
