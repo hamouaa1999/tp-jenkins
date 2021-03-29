@@ -1,0 +1,9 @@
+-classpath 'C:\\Users\\Hamou\\Downloads\\code\\code\\build\\classes\\java\\main;C:\\Users\\Hamou\\Downloads\\code\\code\\build\\resources\\main'
+-d 'C:\\Users\\Hamou\\Downloads\\code\\code\\build\\docs\\javadoc'
+-doctitle 'code 1.0 API'
+-notimestamp 
+-quiet 
+-windowtitle 'code 1.0 API'
+'C:\\Users\\Hamou\\Downloads\\code\\code\\src\\main\\java\\com\\example\\exception\\NoSquareException.java'
+'C:\\Users\\Hamou\\Downloads\\code\\code\\src\\main\\java\\com\\example\\model\\Matrix.java'
+'C:\\Users\\Hamou\\Downloads\\code\\code\\src\\main\\java\\com\\example\\service\\MatrixMathematics.java'
