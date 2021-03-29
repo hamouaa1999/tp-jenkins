@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'gradle build'
         sh 'gradle javadoc'
+        echo 'Build done successfully'
       }
     }
 
